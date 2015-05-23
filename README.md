@@ -9,6 +9,8 @@ it's easy to use:
     
   BannerLoopView *loopView = [[BannerLoopView alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 150) items: @[im1,im2,im3]];
   
+   loopView.delegate = self;
+  
    [self.view addSubview:loopView];
 
 
