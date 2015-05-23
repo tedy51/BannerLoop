@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D9D0FED1B106C4200E6420E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9D0FEC1B106C4200E6420E /* UIKit.framework */; };
 		4EFB3AC21AFABF450022980A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFB3AC11AFABF450022980A /* main.m */; };
 		4EFB3AC51AFABF450022980A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFB3AC41AFABF450022980A /* AppDelegate.m */; };
 		4EFB3AC81AFABF450022980A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFB3AC71AFABF450022980A /* ViewController.m */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D9D0FEC1B106C4200E6420E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4EFB3ABC1AFABF450022980A /* bannerLoop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bannerLoop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EFB3AC01AFABF450022980A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EFB3AC11AFABF450022980A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D9D0FED1B106C4200E6420E /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,10 +72,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D9D0FEB1B106C2E00E6420E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D9D0FEC1B106C4200E6420E /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4EFB3AB31AFABF450022980A = {
 			isa = PBXGroup;
 			children = (
 				4EFB3ABE1AFABF450022980A /* bannerLoop */,
+				3D9D0FEB1B106C2E00E6420E /* Frameworks */,
 				4EFB3AD81AFABF450022980A /* bannerLoopTests */,
 				4EFB3ABD1AFABF450022980A /* Products */,
 			);
@@ -442,6 +454,7 @@
 				4EFB3AE11AFABF450022980A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EFB3AE21AFABF450022980A /* Build configuration list for PBXNativeTarget "bannerLoopTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +463,7 @@
 				4EFB3AE41AFABF450022980A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
