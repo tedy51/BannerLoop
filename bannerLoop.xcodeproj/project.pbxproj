@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3D9D0FED1B106C4200E6420E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9D0FEC1B106C4200E6420E /* UIKit.framework */; };
-		3D9D0FF11B10704400E6420E /* BannerLoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9D0FF01B10704400E6420E /* BannerLoopView.m */; };
 		3D9D0FF31B1071A000E6420E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9D0FF21B1071A000E6420E /* Foundation.framework */; };
 		3D9D0FF51B1071AE00E6420E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9D0FF41B1071AE00E6420E /* CoreGraphics.framework */; };
 		4EFB3AC21AFABF450022980A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFB3AC11AFABF450022980A /* main.m */; };
@@ -35,8 +34,6 @@
 
 /* Begin PBXFileReference section */
 		3D9D0FEC1B106C4200E6420E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		3D9D0FEF1B10704400E6420E /* BannerLoopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerLoopView.h; sourceTree = "<group>"; };
-		3D9D0FF01B10704400E6420E /* BannerLoopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerLoopView.m; sourceTree = "<group>"; };
 		3D9D0FF21B1071A000E6420E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3D9D0FF41B1071AE00E6420E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		4EFB3ABC1AFABF450022980A /* bannerLoop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bannerLoop.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,15 +85,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3D9D0FEE1B10704400E6420E /* BannerLoop */ = {
-			isa = PBXGroup;
-			children = (
-				3D9D0FEF1B10704400E6420E /* BannerLoopView.h */,
-				3D9D0FF01B10704400E6420E /* BannerLoopView.m */,
-			);
-			path = BannerLoop;
-			sourceTree = "<group>";
-		};
 		4EFB3AB31AFABF450022980A = {
 			isa = PBXGroup;
 			children = (
@@ -119,7 +107,6 @@
 		4EFB3ABE1AFABF450022980A /* bannerLoop */ = {
 			isa = PBXGroup;
 			children = (
-				3D9D0FEE1B10704400E6420E /* BannerLoop */,
 				4EFB3AC31AFABF450022980A /* AppDelegate.h */,
 				4EFB3AC41AFABF450022980A /* AppDelegate.m */,
 				4EFB3AC61AFABF450022980A /* ViewController.h */,
@@ -266,7 +253,6 @@
 			files = (
 				4EFB3AC81AFABF450022980A /* ViewController.m in Sources */,
 				4EFB3AC51AFABF450022980A /* AppDelegate.m in Sources */,
-				3D9D0FF11B10704400E6420E /* BannerLoopView.m in Sources */,
 				4EFB3AC21AFABF450022980A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
