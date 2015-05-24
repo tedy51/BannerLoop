@@ -1,5 +1,5 @@
 # BannerLoop
-1 ， it's easy to use :
+ ####  1 ， it's easy to use :
 
   UIImage *im1=[UIImage imageNamed:@"1.jpg"];
   
@@ -12,7 +12,12 @@
    loopView.delegate = self;
   
    [self.view addSubview:loopView];
+   
+####  2,  the way install with CocoaPods 
 
-2 ， works like as below :
+    pod 'BannerLoopView', '~> 1.0.0'
+   
+
+####  3 ， works like as below :
 
 ![Alt Text](https://github.com/tedy51/BannerLoop/raw/master/bannerLoop/loopView.gif)
