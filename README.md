@@ -1,5 +1,5 @@
 # BannerLoop
- ####  1 ， it's easy to use :
+####  1 ， it's easy to use :
 
   UIImage *im1=[UIImage imageNamed:@"1.jpg"];
   
