@@ -1,4 +1,5 @@
 # BannerLoop
+ an infinite automatic scroll loop effect for ios
 ##  easy to use  :
 
   UIImage *im1=[UIImage imageNamed:@"1.jpg"];
