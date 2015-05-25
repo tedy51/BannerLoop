@@ -1,4 +1,4 @@
-# BannerLoop
+# BannerLoopView
  an infinite automatic scroll loop effect for ios
 ##  easy to use  :
 
