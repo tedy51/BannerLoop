@@ -1,6 +1,6 @@
 # BannerLoopView
  an infinite automatic scroll loop effect for ios
-##  easy to use  :
+##  easy to use
 
   UIImage *im1=[UIImage imageNamed:@"1.jpg"];
   
@@ -14,11 +14,11 @@
   
    [self.view addSubview:loopView];
    
-##   the way install with CocoaPods  :
+##   the way install with CocoaPods
 
     pod 'BannerLoopView', '~> 1.0.0'
    
 
-##  works like as below  :
+##  works like as below
 
 ![Alt Text](https://github.com/tedy51/BannerLoop/raw/master/bannerLoop/loopView.gif)
